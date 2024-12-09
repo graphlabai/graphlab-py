@@ -1,6 +1,6 @@
 [tool.poetry]
-name = "graphlab-py"
-version = "0.1.2"
+name = "graphlab"
+version = "0.1.3"
 description = ""
 authors = ["knutole <knutole@graphlab.ai>"]
 readme = "README.md"
