@@ -3,7 +3,7 @@ name: Release to PYPI
 on:
   push:
     tags:
-      - "v*.*.0"
+      - "v*.*.*"
 jobs:
   build:
     runs-on: ubuntu-latest
