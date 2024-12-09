@@ -1,6 +1,8 @@
 # Graphlab Python SDK
 
-## Install
+## Installation
+
+Requires Python version `^3.7`:
 
 ```bash
 pip install graphlab
