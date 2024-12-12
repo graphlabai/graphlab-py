@@ -1,5 +1,4 @@
-from .interface import GraphInterface
-from .storage.neo4j import Neo4jGraphStorage
-from .storage.falkordb import FalkorDBGraphStorage
+from .interface import Graph
+from .providers import GraphStorageBackend, Neo4jGraphStorage, FalkorDBGraphStorage
 
-__all__ = ['GraphInterface', 'Neo4jGraphStorage', 'FalkorDBGraphStorage']
+__all__ = ['Graph', 'Neo4jGraphStorage', 'FalkorDBGraphStorage', 'GraphStorageBackend']
